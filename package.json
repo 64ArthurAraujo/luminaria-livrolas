@@ -1,0 +1,18 @@
+{
+  "name": "luminaria-livrolas",
+  "description": "Ambiente de leitura virtual, aconchegante e clean, facilitando e deixando a leitura do usuário menos maçante durante suas viagens literárias. ",
+  "version": "1.0.0",
+  "main": "./src/electron.js",
+  "private": false,
+  "scripts": {
+    "dist": "electron-builder -wl",
+    "start-electron": "electron ."
+  },
+  "dependencies": {
+    "run-s": "^0.0.0"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
+  }
+}

@@ -1,7 +1,7 @@
 // FUNÇÃO DE DISPLAY DOS LIVROS
 function carregarLivro(nomeArquivo, nomeLivro) {
   let livroAtual = "";
-  let url = "livros/" + nomeArquivo;
+  let url = "../livros/" + nomeArquivo;
 
   //   Resetar interface do leitor
   document.getElementById("titulo-livro").innerHTML = nomeLivro;
